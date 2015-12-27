@@ -39,7 +39,7 @@
 		1E32BA84D81662007C275F9B /* Pods-podTestLibrary1_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podTestLibrary1_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-podTestLibrary1_Tests/Pods-podTestLibrary1_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		29D6B28CCDD02E7BF6BF87AD /* Pods_podTestLibrary1_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_podTestLibrary1_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5512ED204550638C56129D4D /* Pods-podTestLibrary1_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podTestLibrary1_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-podTestLibrary1_Example/Pods-podTestLibrary1_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* podTestLibrary1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = podTestLibrary1.app; path = podTestLibrary1_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* podTestLibrary1_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = podTestLibrary1_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -52,7 +52,7 @@
 		6003F5A5195388D20070C39A /* Test1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* Test1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = podTestLibrary1_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* podTestLibrary1_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podTestLibrary1_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -108,8 +108,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* podTestLibrary1.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* podTestLibrary1_Example.app */,
+				6003F5AE195388D20070C39A /* podTestLibrary1_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,7 +213,7 @@
 			);
 			name = podTestLibrary1_Example;
 			productName = podTestLibrary1;
-			productReference = 6003F58A195388D20070C39A /* podTestLibrary1.app */;
+			productReference = 6003F58A195388D20070C39A /* podTestLibrary1_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* podTestLibrary1_Tests */ = {
@@ -234,7 +234,7 @@
 			);
 			name = podTestLibrary1_Tests;
 			productName = podTestLibrary1Tests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* podTestLibrary1_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
