@@ -1,4 +1,5 @@
 # podTestLibrary1
+<<<<<<< HEAD
 
 [![CI Status](http://img.shields.io/travis/liuzhihui/podTestLibrary1.svg?style=flat)](https://travis-ci.org/liuzhihui/podTestLibrary1)
 [![Version](https://img.shields.io/cocoapods/v/podTestLibrary1.svg?style=flat)](http://cocoapods.org/pods/podTestLibrary1)
@@ -27,3 +28,6 @@ liuzhihui, liuzhihui@postop.cn
 ## License
 
 podTestLibrary1 is available under the MIT license. See the LICENSE file for more info.
+=======
+for test1
+>>>>>>> 8e3d9be32cdd2639cc8c13d3ac7f830c2528404a
